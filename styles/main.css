@@ -92,10 +92,6 @@ li a:hover {
     text-align: center;
 }
 
-.search-input:hover {
-    box-shadow: 0 0 5px #bbb;
-}
-
 .img-container {
     max-width: 300px;
     margin: 0 auto;
@@ -111,6 +107,10 @@ li a:hover {
     border-radius: 24px;
     height: 44px;
     padding: 5px 8px 0 3px;
+}
+
+.search-input:hover {
+    box-shadow: 0 0 5px #bbb;
 }
 
 .search-bar {
