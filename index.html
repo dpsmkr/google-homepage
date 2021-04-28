@@ -10,74 +10,74 @@
     <title>Google</title>
 </head>
 <body>
-    <div class="main">
-        <!-- nav-bar -->
+    <main>
         <header>
-            <ul class="nav-bar">
+            <!-- nav-bar -->
+            <ul id="nav-bar">
                 <li class="nav-link"><a href="#">Gmail</a></li>
                 <li class="nav-link"><a href="#">Images</a></li>
-                <li class="apps-link"><a href="#"><span class="material-icons-outlined apps-icon">
-                    apps
+                <li class="apps-box"><a href="#">
+                    <span class="material-icons-outlined apps-icon">
+                        apps
                     </span></a></li>
-                <li class="signin-btn btn"><a href="#">Sign in</a></li>
+                <li class="signin-btn"><a href="#">Sign in</a></li>
             </ul>
         </header>
-
-        <div class="search-container">
+        <div id="content">
             <!-- logo -->
-            <div class="img-container">
+            <div id="logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div>        
-
+            </div>
             <!-- search form -->
-            <div class="form-container">
+            <div id="content">
                 <form action="" method="get">
-                    <div class="search-input">
-                        <div class="search-icon">
-                            <span class="material-icons-outlined srch-ico">
+                    <div class="search-box">
+                        <!-- search icon -->
+                        <div class="icon search-icon">
+                            <span class="material-icons-outlined ico">
                                 search
                             </span>
                         </div>
+                        <!-- input -->
                         <input class="search-bar" type="text" name="search">
-                        <div class="audio-icon">
-                            <span class="material-icons-outlined ad-ico">
+                        <!-- mic icon -->
+                        <div class="icon mic-icon">
+                            <span class="material-icons-outlined ico">
                                 mic
                             </span>
                         </div>
-                    </div>
-    
+                    </div>    
                     <!-- buttons -->
-                    <div class="button">
+                    <div class="main-btn">
                         <input type="submit" value="Google Search">
                         <input type="submit" value="I'm Feeling Lucky">
                     </div>
                 </form>
             </div>
         </div>
-
         <!-- lang -->
         <div class="lang-box">
-            <p>Google offered in: <a href="#">Português (Brasil)</a></p>
+            </p>Google offered in: <a href="#">Português (Brasil)</a>
         </div>
-
         <!-- footer -->
-        <div class="footer">
+        <div class="footer-box">
             <div class="brazil">
                 Brazil
             </div>
-            <footer class="foot">
-                <div class="foot-left">
+            <footer>
+                <div class="footer-links">
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Advertising</a></li>
                     <li><a href="#">Business</a></li>
                     <li><a href="#">How Search Works</a></li>
                 </div>
-                <div class="foot-right">
+                <div class="footer-links">
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Settings</a></li>
                 </div>
             </footer>
         </div>
-    </div>
+    </main>
 </body>
 </html>
