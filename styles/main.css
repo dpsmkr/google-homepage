@@ -23,7 +23,8 @@ a {
     color: #444;
 }
 
-header a, .lang-box a {
+header a, 
+.lang-box a {
     font-size: small;
 }
 
@@ -165,7 +166,8 @@ input[type=submit] {
     user-select: none;
 }
 
-input[type=submit]:hover, .search-box:hover {
+input[type=submit]:hover, 
+.search-box:hover {
     box-shadow: 0 0 3px #aaa;
 }
 
@@ -178,7 +180,9 @@ input[type=submit]:hover, .search-box:hover {
     margin-top: 20px;
 }
 
-.lang-box a:visited {
+.lang-box a, 
+.lang-box a:visited,
+.lang-box a:active  {
     color: #1a0dab;
 }
 
