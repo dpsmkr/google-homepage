@@ -1,3 +1,3 @@
 Google homepage clone created with HTML and CSS.
 
-_Work in progress_
+🌐 [Live preview](https://dpsmkr.github.io/google-homepage/)
